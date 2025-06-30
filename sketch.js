@@ -411,19 +411,19 @@ function dropdown(event) {
     startButton.innerHTML = `Start ${algo}`
     let message = document.getElementById('message')
     if(algo === "A* Search"){
-        message.innerHTML = `Insight: A* Search <span style = "font-weight: bold;">Gurantees</span> Shortest Path`
+        message.innerHTML = `Insight: A* Search <span style = "font-weight: bold;">Guarntees</span> Shortest Path`
     }
     else if(algo === "Dijkstra"){
-        message.innerHTML = `Insight: Dijkstra's Algorithm Or A Variant Of It Is Known As UCS <span style = "font-weight: bold;">Gurantees</span> Shortest Path`
+        message.innerHTML = `Insight: Dijkstra's Algorithm <span style = "font-weight: bold;">Guarantees</span> Shortest Path`
     }
     else if(algo === "Breadth First Search"){
-        message.innerHTML = `Insight: Breadth First Search (BFS) <span style = "font-weight: bold;">Gurantees</span> Shortest Path In An <span style = "font-weight: bold;">Unweighted Graph</span> And A Feasible Choice <span style = "font-weight: bold;">If The Destination Is Closer To The Source</span>`
+        message.innerHTML = `Insight: Breadth First Search (BFS) <span style = "font-weight: bold;">Guarantees</span> Shortest Path In An <span style = "font-weight: bold;">Unweighted Graph</span> And A Feasible Choice <span style = "font-weight: bold;">If The Destination Is Closer To The Source</span>`
     }
     else if(algo === "Depth First Search"){
-        message.innerHTML = `Insight: Depth First Search (DFS) <span style = "font-weight: bold;">Does Not Gurantee</span> Shortest Path Though Is A Feasible Choice For Memory <span style = "font-weight: bold;">If The Destination Is Far Away From The Source</span>`
+        message.innerHTML = `Insight: Depth First Search (DFS) <span style = "font-weight: bold;">Does Not Guarantee</span> Shortest Path Though Is A Feasible Choice For Memory <span style = "font-weight: bold;">If The Destination Is Far Away From The Source</span>`
     }
     else{
-        message.innerHTML = `Insight: Greedy Best-First Search <span style = "font-weight: bold;">Does Not Gurantee</span> Shortest Path As It Takes Decision Solely Based On <span style = "font-weight: bold;">Heuristics</span>`
+        message.innerHTML = `Insight: Greedy Best First Search <span style = "font-weight: bold;">Does Not Guarantee</span> Shortest Path As It Takes Decision Solely Based On <span style = "font-weight: bold;">Heuristics</span>`
     }
 }
 
