@@ -1,0 +1,56 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .container-fluid.w-100.m-0.p-0 {
+    height: 100vh;
+  }
+  
+  .square {
+    display: inline-block;
+  }
+  
+  .square.source {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(87, 50, 168);
+  }
+  
+  .square.destination {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(140, 68, 20);
+  }
+
+  .square.obstacle {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(128, 128, 128);
+  }
+  
+  .square.unexplored {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(45, 196, 129);
+  }
+  
+  .square.explored {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 205, 205);
+  }
+  
+  
+  .square.path {
+    height: 5px;
+    width: 30px;
+    background-color: rgb(255, 0, 200);
+  }
+  
+  #message {
+    font-style: italic;
+  }
+  
+  #sketch01 {
+    position: relative;
+  }
